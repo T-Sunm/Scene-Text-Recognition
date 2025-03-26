@@ -174,4 +174,7 @@ cython_debug/
 icdar2003.zip
 icdar2003
 datasets
+license-plate-dataset
 model/crnn.pth
+notebooks/runs
+notebooks/yolo11m.pt
