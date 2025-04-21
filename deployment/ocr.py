@@ -16,7 +16,7 @@ from ultralytics.utils.plotting import Annotator, colors
 app = FastAPI()
 
 # Constants
-TEXT_DET_MODEL_PATH = "../runs/detect/train/weights/best.pt"
+TEXT_DET_MODEL_PATH = "../model/yolo11m/best.pt"
 OCR_MODEL_PATH = "../ocr_crnn.pt"
 
 # Character set configuration

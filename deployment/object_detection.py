@@ -13,7 +13,7 @@ from ultralytics.utils.plotting import Annotator, colors
 app = FastAPI()
 
 # Load YOLOv11 model once at startup
-yolo_model = YOLO("yolo11n.pt")
+yolo_model = YOLO("../model/yolo11m/best.pt")
 
 async def process_image(image_data: bytes) -> Response:
   """Common image processing logic for both URL and file upload"""
