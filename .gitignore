@@ -178,3 +178,4 @@ license-plate-dataset
 model/crnn.pth
 notebooks/runs
 notebooks/yolo11m.pt
+model/yolo11m

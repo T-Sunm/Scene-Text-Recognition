@@ -16,8 +16,8 @@ from ultralytics.utils.plotting import Annotator, colors
 app = FastAPI()
 
 # Constants
-TEXT_DET_MODEL_PATH = "../model/yolo11m/best.pt"
-OCR_MODEL_PATH = "../ocr_crnn.pt"
+TEXT_DET_MODEL_PATH = "../model/yolo11m/best_text.pt"
+OCR_MODEL_PATH = "../model/ocr_crnn.pt"
 
 # Character set configuration
 CHARS = "0123456789abcdefghijklmnopqrstuvwxyz-"
